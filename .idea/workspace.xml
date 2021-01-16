@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dc418af-71d7-48e7-9948-7db8662ed497" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MoFan/PyTorch-Tutorial/402_RNN_classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoFan/PyTorch-Tutorial/401_CNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/MoFan/PyTorch-Tutorial/401_CNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/optimization-algorithm/Metaheuristic-Local_Search-GRASP" beforeDir="false" afterPath="$PROJECT_DIR$/optimization-algorithm/Metaheuristic-Local_Search-GRASP" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/optimization-algorithm/Metaheuristic-Local_Search-GRASP/Python-MH-Local Search-GRASP.py" beforeDir="false" afterPath="$PROJECT_DIR$/optimization-algorithm/Metaheuristic-Local_Search-GRASP/Python-MH-Local Search-GRASP.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,6 +20,7 @@
     <SUITE FILE_PATH="coverage/dailyLearn$test.coverage" NAME="test Coverage Results" MODIFIED="1610788434387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MoFan/PyTorch-Tutorial" />
     <SUITE FILE_PATH="coverage/dailyLearn$303_build_nn_quickly.coverage" NAME="303_build_nn_quickly Coverage Results" MODIFIED="1610783438269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MoFan/PyTorch-Tutorial" />
     <SUITE FILE_PATH="coverage/dailyLearn$305_batch_train.coverage" NAME="305_batch_train Coverage Results" MODIFIED="1610784703831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MoFan/PyTorch-Tutorial" />
+    <SUITE FILE_PATH="coverage/pythonDailyLearn$402_RNN_classifier.coverage" NAME="402_RNN_classifier Coverage Results" MODIFIED="1610799562733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MoFan/PyTorch-Tutorial" />
     <SUITE FILE_PATH="coverage/dailyLearn$301_regression.coverage" NAME="301_regression Coverage Results" MODIFIED="1610704849726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MoFan/PyTorch-Tutorial" />
     <SUITE FILE_PATH="coverage/dailyLearn$202_variable.coverage" NAME="202_variable Coverage Results" MODIFIED="1610696830951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MoFan/PyTorch-Tutorial" />
     <SUITE FILE_PATH="coverage/dailyLearn$treasure_on_right.coverage" NAME="treasure_on_right Coverage Results" MODIFIED="1610451476536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Reinforcement-Learning" />
@@ -25,6 +31,7 @@
     <SUITE FILE_PATH="coverage/dailyLearn$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1610630158686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/JackCui/DeepLearning/3_bpnetwork" />
     <SUITE FILE_PATH="coverage/dailyLearn$run_this.coverage" NAME="run_this Coverage Results" MODIFIED="1610541414804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Reinforcement-Learning/4_Sarsa_lambda_maze" />
     <SUITE FILE_PATH="coverage/dailyLearn$306_optimizer.coverage" NAME="306_optimizer Coverage Results" MODIFIED="1610786070088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MoFan/PyTorch-Tutorial" />
+    <SUITE FILE_PATH="coverage/pythonDailyLearn$401_CNN.coverage" NAME="401_CNN Coverage Results" MODIFIED="1610798085417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MoFan/PyTorch-Tutorial" />
     <SUITE FILE_PATH="coverage/dailyLearn$201_torch_numpy.coverage" NAME="201_torch_numpy Coverage Results" MODIFIED="1610696390329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MoFan/PyTorch-Tutorial" />
     <SUITE FILE_PATH="coverage/dailyLearn$203_activation.coverage" NAME="203_activation Coverage Results" MODIFIED="1610697557708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MoFan/PyTorch-Tutorial" />
   </component>
@@ -71,43 +78,37 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1184311070">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="1503" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="1503" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MoFan/PyTorch-Tutorial/401_CNN.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MoFan/PyTorch-Tutorial/306_optimizer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MoFan/PyTorch-Tutorial/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -126,7 +127,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/optimization-algorithm/Metaheuristic-Local_Search-GRASP" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -162,6 +163,7 @@
         <option value="$PROJECT_DIR$/MoFan/PyTorch-Tutorial/306_optimizer.py" />
         <option value="$PROJECT_DIR$/MoFan/PyTorch-Tutorial/test.py" />
         <option value="$PROJECT_DIR$/MoFan/PyTorch-Tutorial/401_CNN.py" />
+        <option value="$PROJECT_DIR$/MoFan/PyTorch-Tutorial/402_RNN_classifier.py" />
       </list>
     </option>
   </component>
@@ -173,11 +175,13 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-85" />
-    <option name="y" value="26" />
+    <option name="y" value="25" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -188,29 +192,19 @@
         <subPane>
           <expand>
             <path>
-              <item name="dailyLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dailyLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="pythonDailyLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonDailyLearn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dailyLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dailyLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="pythonDailyLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonDailyLearn" type="462c0819:PsiDirectoryNode" />
               <item name="MoFan" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dailyLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dailyLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="optimization-algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dailyLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dailyLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="Reinforcement-Learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dailyLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dailyLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="Reinforcement-Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="4_Sarsa_lambda_maze" type="462c0819:PsiDirectoryNode" />
+              <item name="pythonDailyLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonDailyLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="MoFan" type="462c0819:PsiDirectoryNode" />
+              <item name="PyTorch-Tutorial" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -220,7 +214,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JackCui/DeepLearning/3_bpnetwork/fc.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -259,29 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.401_CNN">
-    <configuration name="304_save_reload" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="dailyLearn" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Yun\Anaconda3\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MoFan/PyTorch-Tutorial" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MoFan/PyTorch-Tutorial/304_save_reload.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.402_RNN_classifier">
     <configuration name="305_batch_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dailyLearn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -340,6 +312,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MoFan/PyTorch-Tutorial/401_CNN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="402_RNN_classifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dailyLearn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Yun\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MoFan/PyTorch-Tutorial" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MoFan/PyTorch-Tutorial/402_RNN_classifier.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -416,19 +410,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.python3" />
-      <item itemvalue="Python.304_save_reload" />
       <item itemvalue="Python.305_batch_train" />
       <item itemvalue="Python.306_optimizer" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.401_CNN" />
+      <item itemvalue="Python.402_RNN_classifier" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.402_RNN_classifier" />
         <item itemvalue="Python.401_CNN" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.306_optimizer" />
         <item itemvalue="Python.305_batch_train" />
-        <item itemvalue="Python.304_save_reload" />
       </list>
     </recent_temporary>
   </component>
@@ -465,7 +459,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28150135" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15348525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -479,7 +473,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" weight="0.398017" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3281471" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32719547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -507,6 +501,11 @@
           <url>file://$PROJECT_DIR$/MoFan/PyTorch-Tutorial/302_classification.py</url>
           <line>35</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MoFan/PyTorch-Tutorial/401_CNN.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -750,9 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="19" column="19" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -766,20 +762,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/torch/nn/modules/module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="573" selection-start-line="573" selection-end-line="573" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MoFan/PyTorch-Tutorial/304_save_reload.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="66" column="11" lean-forward="true" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -794,10 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-54">
           <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-            <marker date="1610784702309" expanded="true" signature="323:328" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -808,19 +790,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MoFan/PyTorch-Tutorial/401_CNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MoFan/PyTorch-Tutorial/306_optimizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="150">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="19" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
@@ -832,6 +804,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoFan/PyTorch-Tutorial/401_CNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1610798389435" expanded="true" signature="1312:4771" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/torch/nn/modules/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="531" selection-start-line="531" selection-end-line="531" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoFan/PyTorch-Tutorial/402_RNN_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="53" column="28" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+            <marker date="1610799559250" expanded="true" signature="1632:3707" ph="..." />
+            <marker date="1610799559250" expanded="true" signature="2085:2094" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
