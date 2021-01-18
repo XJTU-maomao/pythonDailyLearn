@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Reinforcement-Learning/2_Q_Learning_maze" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/JackCui/DeepLearning/2_lesson" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/JackCui/DeepLearning/3_bpnetwork" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MoFan/Reinforcement-Learning/5_Deep_Q_Network" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
